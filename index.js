@@ -9,7 +9,7 @@ const app = express();
 // Rate limiting
 const limiter = rateLimiter({
     windowMs: 10 * 60 * 1000,
-    max: 30,
+    max: 50,
     message:
         'Too many request placed. Please contact the developer - aneeshv28@gmail.com',
 });
